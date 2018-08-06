@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Tribute Page | Albert Einstein</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
     <div id="img-div">
       <img src="./images/Einstein.jpg" alt="Picture of Albert Einstein" id="image">
-      <caption id="img-caption">Albert Einstein gazing, thinking about a complicated physics formula.</caption>
+      <p id="img-caption">Albert Einstein gazing, thinking about a complicated physics formula.</p>
     </div>
 
     <article id="tribute-info">
@@ -30,17 +31,20 @@
         <li>Einstein published more than 300 scientific papers and more than 150 non-scientific works. His intellectual achievements and originality have made the word "Einstein" synonymous with "genius".</li>
       </ul>
 
-      <blockquote cite="https://www.goalcast.com/2017/03/29/top-30-most-inspiring-albert-einstein-quotes/">"Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid"</blockquote>
-
-      <blockquote id="cite">
+      <div id="blockquote">
+        <blockquote cite="https://www.goalcast.com/2017/03/29/top-30-most-inspiring-albert-einstein-quotes/">"Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid"
+        </blockquote>
         <cite>-- Albert Einstein</cite>
-      </blockquote>
+      </div>
+
     </article>
 
     <footer>
       <span><strong>If you want, you can read a lot more about Albert Einstein on his</strong></span>
-      <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">Wikipedia Page</a>
+      <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank" id="tribute-link">Wikipedia Page</a>
     </footer>
   </section>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
