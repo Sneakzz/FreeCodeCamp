@@ -87,6 +87,7 @@ body{
 }
 
 /* Media Query for mobile devices */
+
 @media (max-width: 768px) {
   #main > header > p {
     max-width: 95%;
