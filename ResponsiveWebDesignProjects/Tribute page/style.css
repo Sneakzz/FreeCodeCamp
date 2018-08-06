@@ -29,7 +29,7 @@ body{
 }
 
 #img-div {
-  width: 60%;
+  max-width: 60%;
   margin: 25px auto;
   padding: 20px 0;
   background-color: #222;
@@ -84,4 +84,27 @@ body{
 
 #main > footer > a:hover {
   font-weight: bold;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 768px) {
+  #main > header > p {
+    max-width: 95%;
+  }
+
+  #img-div {
+    max-width: 80%;
+  }
+
+  #tribute-info {
+    max-width: 95%;
+  }
+
+  #tribute-info > ul {
+    max-width: 95%;
+  }
+
+  #tribute-info > #blockquote {
+    max-width: 90%;
+  }
 }
