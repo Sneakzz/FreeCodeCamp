@@ -21,7 +21,7 @@
           <label for="name" id="name-label">* Name:</label>
         </div>
         <div class="inputs">
-          <input type="text" name="name" id="name" placeholder="Enter your name" required>
+          <input type="text" name="name" class="input-style" id="name" placeholder="Enter your name" required>
         </div>
       </div>
       <div class="row">
@@ -29,7 +29,7 @@
           <label for="email" id="email-label">* Email:</label>
         </div>
         <div class="inputs">
-          <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+          <input type="email" name="email" class="input-style" id="email" placeholder="Enter your Email" required>
         </div>
       </div>
       <div class="row">
@@ -37,7 +37,7 @@
           <label for="number" id="number-label">* Age:</label>
         </div>
         <div class="inputs">
-          <input type="number" name="age" id="number" min="4" max="110" placeholder="Age" required>
+          <input type="number" name="age" class="input-style" id="number" min="4" max="110" placeholder="Age" required>
         </div>
       </div>
       <div class="row">
@@ -46,7 +46,7 @@
         </div>
         <div class="inputs">
           <select id="dropdown">
-            <option disabled>Select an option</option>
+            <option selected disabled>Select an option</option>
             <option value="student">Student</option>
             <option value="job">Full time job</option>
             <option value="learner">Full time learner</option>
@@ -60,9 +60,20 @@
           <label for="#">* How likely is it that you would recommend learning programming to a friend?</label>
         </div>
         <div class="inputs">
-          <input type="radio" name="recommend" value="definitely">Definitely
-          <input type="radio" name="recommend" value="maybe">Maybe
-          <input type="radio" name="recommend" value="unsure">Not sure
+          <ul>
+            <li>
+              <input type="radio" id="definitely" name="recommend" value="definitely">
+              <label for="definitely">Definitely</label>
+            </li>
+            <li>
+                <input type="radio" id="maybe" name="recommend" value="maybe">
+                <label for="maybe">Maybe</label>
+            </li>
+            <li>
+                <input type="radio" id="unsure" name="recommend" value="unsure">
+                <label for="unsure">Not sure</label>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="row">
@@ -71,7 +82,7 @@
         </div>
         <div class="inputs">
           <select name="select-preference" id="preference">
-            <option value="disabled" disabled>Select an option</option>
+            <option selected disabled>Select an option</option>
             <option value="challenges">Challenges</option>
             <option value="projects">Projects</option>
             <option value="community">Community</option>
@@ -84,12 +95,32 @@
           <label for="#">Which of the following would you like to learn/improve at in the near future?</label>
         </div>
         <div class="inputs">
-          <input type="checkbox" name="front" value="front">Front-end Projects
-          <input type="checkbox" name="back" value="back">Back-end Projects
-          <input type="checkbox" name="data" value="data">Data Visualization
-          <input type="checkbox" name="challenges" value="challenges">Challenges
-          <input type="checkbox" name="api" value="api">API's
-          <input type="checkbox" name="open" value="open">Open Source Contributions
+          <ul>
+            <li>
+                <input type="checkbox" id="front" name="front" value="front">
+                <label for="front">Front-end Projects</label>
+            </li>
+            <li>
+                <input type="checkbox" id="back" name="back" value="back">
+                <label for="back">Back-end Projects</label>
+            </li>
+            <li>
+                <input type="checkbox" id="data" name="data" value="data">
+                <label for="data">Data Visualisation</label>
+            </li>
+            <li>
+                <input type="checkbox" id="challenges" name="challenges" value="challenges">
+                <label for="challenges">Challenges</label>
+            </li>
+            <li>
+                <input type="checkbox" id="api" name="api" value="api">
+                <label for="api">API's</label>
+            </li>
+            <li>
+                <input type="checkbox" id="open" name="open" value="open">
+                <label for="open">Open Source Contributions</label>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="row">
@@ -97,7 +128,7 @@
           <label for="comments">Any comments or suggestions?</label>
         </div>
         <div class="inputs">
-          <textarea name="comments" id="comments" cols="40" rows="4" placeholder="Enter your comment here..."></textarea>
+          <textarea name="comments" id="comments" class="input-style" cols="40" rows="4" placeholder="Enter your comment here..."></textarea>
         </div>
       </div>
       <button type="submit" id="submit">Submit</button>
