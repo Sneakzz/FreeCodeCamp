@@ -4,11 +4,13 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
 
 ## Project in progress:
 
+### Responsive Web Design:
+
 * Survey Form.
 
 ## Completed projects:
 
 ### Responsive Web Design:
 
-* Tribute Page.
+* Tribute Page. -> [Live link](https://sneakzz.github.io/FreeCodeCamp/ResponsiveWebDesignProjects/Tribute%20page/)
 
