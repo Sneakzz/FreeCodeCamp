@@ -13,4 +13,8 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
 ### Responsive Web Design:
 
 * Tribute Page. -> [Live link](https://sneakzz.github.io/FreeCodeCamp/ResponsiveWebDesignProjects/Tribute%20page/)
+  This project was built using:
+    * HTML5
+    * CSS3
+    * Visual Studio Code
 
