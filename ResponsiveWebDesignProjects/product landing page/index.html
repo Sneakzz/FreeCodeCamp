@@ -11,32 +11,103 @@
 <body>
   <div id="main">
     <header id="header">
-      <img src="#" alt="" id="header-img">
+      <div id="logo">
+        <img src="./images/helicopter-logo.png" alt="a png logo of a helicopter" id="header-img">
+        <h1><span>Personal</span> Helicopter</h1>
+      </div>
+
       <nav id="nav-bar">
         <ul>
-          <li><a href="#" class="nav-link"></a></li>
-          <li><a href="#" class="nav-link"></a></li>
-          <li><a href="#" class="nav-link"></a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#explanation" class="nav-link">How It Works</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
         </ul>
       </nav>
     </header>
 
     <section id="features">
+      <div class="feature">
+        <div class="feature-logo">
+          <i class="fas fa-bus"></i>
+        </div>
+        <div class="feature-text">
+          <h3>Had enough of annoying transportation problems?</h3>
+          <p>Say no more, Personal Helicopters could be your go-to service to get from point A to point B.</p>
+        </div>
+      </div>
 
+      <div class="feature">
+        <div class="feature-logo">
+          <i class="fas fa-coins"></i>
+        </div>
+        <div class="feature-text">
+
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-logo">
+
+        </div>
+        <div class="feature-text">
+
+        </div>
+      </div>
     </section>
 
-    <section id="video-player">
+    <section id="explanation">
       <h2>Want to learn how to use a helicopter?</h2>
       <article id="video">
-        <iframe src="#" frameborder="0"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/I9ScVZ437xA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+      </article>
+    </section>
+
+    <section id="pricing">
+      <article class="price-details">
+        <h3></h3>
+        <p><strong></strong></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <input type="button" value="Choose" id="btn-choose">
+      </article>
+
+      <article class="price-details">
+          <h3></h3>
+          <p><strong></strong></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <input type="button" value="Choose" id="btn-choose">
+      </article>
+
+      <article class="price-details">
+          <h3></h3>
+          <p><strong></strong></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <input type="button" value="Choose" id="btn-choose">
       </article>
     </section>
 
     <section id="sign-up">
-      <form action="#" id="form">
-        
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+        <input type="submit" value="Subscribe!" id="submit">
       </form>
     </section>
+
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <p>Copyright 2018, Personal Helicopter</p>
+    </footer>
   </div>
 </body>
 </html>
