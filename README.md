@@ -6,7 +6,7 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
 
 ### Responsive Web Design:
 
-
+* Product landing page
 
 ## Completed projects:
 
