@@ -39,7 +39,6 @@ header #title {
 
 #main #survey-form .inputs {
   display: inline-block;
-  max-width: 40%;
   text-align: left;
   vertical-align: top;
 }
@@ -54,7 +53,7 @@ header #title {
   list-style: none;
   position: relative;
   right: 43px;
-  bottom: 25px;
+  bottom: 20px;
   padding-top: 10px;
 }
 
@@ -79,4 +78,16 @@ header #title {
   width: 290px;
   border: 1px solid #333;
   border-radius: 2px;
+}
+
+/* Media query for smaller screens */
+/* 768px */
+@media screen and (max-width: 768px) {
+  #main #survey-form .row .label, #main #survey-form .row .inputs {
+    display: block;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 }
