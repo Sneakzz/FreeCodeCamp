@@ -75,12 +75,12 @@ header #title {
 
 .input-style {
   padding: 6px;
-  width: 290px;
+  width: 80%;
   border: 1px solid #333;
   border-radius: 2px;
 }
 
-/* Media query for smaller screens */
+/* Media queries for smaller screens */
 /* 768px */
 @media screen and (max-width: 768px) {
   #main #survey-form .row .label, #main #survey-form .row .inputs {
