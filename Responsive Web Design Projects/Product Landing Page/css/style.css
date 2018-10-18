@@ -11,12 +11,16 @@ body{
   font-size: 18px;
   line-height: 1.6em;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #ddd;
 }
 
 .container{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.accent{
+  color: orangered;
 }
 
 /* Header */
@@ -83,24 +87,252 @@ body{
 #nav-bar .nav-link:hover{
   color: orangered;
   text-decoration: underline;
+  transition: 0.5s;
 }
 
 /* Showcase */
 #showcase{
-  height: 275px;
+  min-height: 350px;
+  margin-top: 100px;
+}
+
+#showcase-img{
+  position: absolute;
+  width: 100%;
+  height: 350px;
   background-image: url(../img/showcase1.jpg);
   background-position: center;
   background-size: cover;
-  margin-bottom: 15px;
-  margin-top: 100px;
+  opacity: 0.65;
 }
 
 #showcase #showcase-text{
   text-align: center;
   width: 70%;
   position: relative;
-  top: 60px;
+  top: 75px;
   left: 75px;
   color: lightgray;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  color: #333;
+}
+
+#showcase-text h2{
+  margin-bottom: 20px;
+}
+
+/* Features */
+#features{
+  margin-top: 20px;
+}
+
+#features .feature-card{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#features .feature-card .feature-logo{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+  height: 150px;
+}
+
+#features .feature-card .feature-descr{
+  width: 80%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* How it works */
+#how{
+  text-align: center;
+  margin: 25px auto;
+}
+
+#how iframe{
+  max-width: 560px;
+  width: 100%;
+}
+
+/* Pricing */
+#pricing{
+  margin: 60px auto;
+  text-align: center;
+}
+
+#pricing #pricing-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#pricing #pricing-wrap .price-panel{
+  border: 1px solid black;
+  width: calc(100% / 3);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.price-panel .panel-title{
+  background-color: #ccc;
+  width: 100%;
+  padding: 15px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.price-panel .panel-info h3{
+  margin-top: 10px;
+}
+
+.price-panel .panel-info ul{
+  list-style-type: none;
+  margin: 15px auto;
+}
+
+.price-panel .panel-info ul li{
+  padding: 5px 0;
+}
+
+.price-panel button{
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: orange;
+}
+
+.price-panel button:hover{
+  cursor: pointer;
+  background-color: darkorange;
+  transition: 0.5s;
+}
+
+/* Form */
+#section-form{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#section-form h2{
+  padding: 20px 0;
+  font-size: 2em;
+}
+
+#section-form #form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section-form #form input[type="email"]{
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#section-form #form input[type="submit"]{
+  max-width: 150px;
+  width: 100%;
+  margin: 15px auto;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: orange;
+  border: none;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+#section-form #form input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: darkorange;
+  transition: 0.5s;
+}
+
+/* Footer */
+footer{
+  background-color: #ccc;
+  display: flex;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+footer ul{
+  margin: 5px 0;
+  list-style-type: none;
+}
+
+footer ul li{
+  display: inline-block;
+  padding: 0 7px;=
+}
+
+footer ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+footer ul li a:hover{
+  color: orangered;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+/* Media Query's */
+@media only screen and (max-width: 650px){
+  .container{
+    width: 95%;
+  }
+
+  #header{
+    min-height: 135px;
+  }
+
+  #logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #nav-bar{
+    width: 100%;
+    text-align: end;
+    margin-top: 0;
+    position: relative;
+    top: -50px;
+  }
+
+  #showcase{
+    margin-top: 135px;
+  }
+
+  #features .feature-card .feature-descr{
+    padding-left: 15px;
+  }
+
+  #pricing #pricing-wrap .price-panel{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 5px;
+    margin: 10px auto;
+  }
+
+  #pricing #pricing-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

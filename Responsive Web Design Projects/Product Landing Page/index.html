@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <title>Generic Processing Unit</title>
+  <title>Graphics Processing Unit</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <div class="container">
       <div id="logo">
         <img src="img/logo1.png" alt="GPU logo img" id="header-img">
-        <h1 id="logo-text">Generic Processing Unit</h1>
+        <h1 id="logo-text"><span class="accent">Graphics</span> Processing Unit</h1>
       </div>
       <nav id="nav-bar">
         <ul>
@@ -31,9 +31,10 @@
 
   <!-- Section: Showcase -->
   <section id="showcase">
+    <div id="showcase-img"></div>
     <div class="container">
       <div id="showcase-text">
-        <h2>Generic Processing Units!</h2>
+        <h2><span class="accent">Graphics</span> Processing Units!</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, esse vitae consectetur facere qui
           exercitationem?</p>
       </div>
@@ -80,7 +81,7 @@
   <section id="how">
     <div class="container">
       <h2>Watch this video to find out how it works!</h2>
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nyDxrTHDjXQ" frameborder="0" allow="autoplay; encrypted-media"
+      <iframe id="video" height="315" src="https://www.youtube.com/embed/nyDxrTHDjXQ" frameborder="0" allow="autoplay; encrypted-media"
         allowfullscreen></iframe>
     </div>
   </section>
@@ -88,56 +89,58 @@
   <!-- Section: Pricing -->
   <section id="pricing">
     <div class="container">
-      <div class="price-panel">
-        <div class="panel-title">
-          <h3>gpu name</h3>
+      <div id="pricing-wrap">
+        <div class="price-panel">
+          <div class="panel-title">
+            <h3>GPU-720</h3>
+          </div>
+          <div class="panel-info">
+            <h3>$120</h3>
+            <ul>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem, ipsum.</li>
+            </ul>
+          </div>
+          <button type="submit" id="select">SELECT</button>
         </div>
-        <div class="panel-info">
-          <ul>
-            <li>price</li>
-            <li>Lorem, ipsum.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem, ipsum.</li>
-          </ul>
+        <div class="price-panel">
+          <div class="panel-title">
+            <h3>GPU-1080</h3>
+          </div>
+          <div class="panel-info">
+            <h3>$350</h3>
+            <ul>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem, ipsum.</li>
+            </ul>
+          </div>
+          <button type="submit" id="select">SELECT</button>
         </div>
-        <button type="submit" id="select">SELECT</button>
-      </div>
-      <div class="price-panel">
-        <div class="panel-title">
-          <h3>gpu name</h3>
+        <div class="price-panel">
+          <div class="panel-title">
+            <h3>GPU-1080 Extreme</h3>
+          </div>
+          <div class="panel-info">
+            <h3>$500</h3>
+            <ul>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem, ipsum.</li>
+            </ul>
+          </div>
+          <button type="submit" id="select">SELECT</button>
         </div>
-        <div class="panel-info">
-          <ul>
-            <li>price</li>
-            <li>Lorem, ipsum.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem, ipsum.</li>
-          </ul>
-        </div>
-        <button type="submit" id="select">SELECT</button>
-      </div>
-      <div class="price-panel">
-        <div class="panel-title">
-          <h3>gpu name</h3>
-        </div>
-        <div class="panel-info">
-          <ul>
-            <li>price</li>
-            <li>Lorem, ipsum.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem, ipsum.</li>
-          </ul>
-        </div>
-        <button type="submit" id="select">SELECT</button>
       </div>
     </div>
   </section>
 
   <!-- Section: Form -->
-  <section>
+  <section id="section-form">
     <div class="container">
       <h2>Stay In Touch</h2>
       <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
@@ -146,6 +149,21 @@
       </form>
     </div>
   </section>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="#">Privacy</a>
+      </li>
+      <li>
+        <a href="#">Terms</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+    <h6>GraphicsProcessingUnit &copy; 2018</h6>
+  </footer>
 
 
   <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
