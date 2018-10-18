@@ -25,3 +25,10 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
     * HTML5
     * CSS3
     * Visual Studio Code
+
+* Product Landing Page -> [Live link](https://sneakzz.github.io/FreeCodeCamp/Responsive%20Web%20Design%20Projects/Product%20Landing%20Page/)
+
+  This project was built using:
+    * HTML5
+    * CSS3
+    * Visual Studio Code
