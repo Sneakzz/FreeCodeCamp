@@ -30,5 +30,12 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
 
   This project was built using:
     * HTML5
-    * CSS3
+    * CSS3 (grid + flexbox)
+    * Visual Studio Code
+
+* Technical Documentation Page -> [Live link](https://sneakzz.github.io/FreeCodeCamp/Responsive%20Web%20Design%20Projects/Technical%20Documentation%20Page/)
+
+  This project was built using:
+    * HTML5
+    * CSS3 (grid + flexbox)
     * Visual Studio Code
