@@ -34,7 +34,7 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
     * CSS3 (grid + flexbox)
     * Visual Studio Code
 
-* Personal Portfolio -> [Live link](https://sneakzz.github.io/)
+* Personal Portfolio Website -> [Live link](https://sneakzz.github.io/)
    
    This project was built using:
     * HTML5
