@@ -2,12 +2,6 @@
 
 FreeCodeCamp is a platform that uses an interactive form of teaching mixed with projects along the way that help with remembering exactly what you learned in any given section.
 
-## Project in progress:
-
-### Responsive Web Design:
-
-* Product landing page
-
 ## Completed projects:
 
 ### Responsive Web Design:
@@ -35,7 +29,13 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
 
 * Technical Documentation Page -> [Live link](https://sneakzz.github.io/FreeCodeCamp/Responsive%20Web%20Design%20Projects/Technical%20Documentation%20Page/)
 
-  This project was built using:
+   This project was built using:
     * HTML5
     * CSS3 (grid + flexbox)
+    * Visual Studio Code
+
+* Personal Portfolio -> [Live link](https://sneakzz.github.io/)
+   This project was built using:
+    * HTML5
+    * CSS3 (flexbox)
     * Visual Studio Code
