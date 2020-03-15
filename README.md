@@ -13,7 +13,7 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
     * CSS3
     * Visual Studio Code
     
-* Survey Form. -> [Live link](https://sneakzz.github.io/FreeCodeCamp/ResponsiveWebDesignProjects/Survey%20form/)
+* Survey Form. -> [Live link](https://sneakzz.github.io/FreeCodeCamp/Responsive%20Web%20Design%20Projects/Survey%20form/)
 
   This project was built using:
     * HTML5
@@ -32,11 +32,4 @@ FreeCodeCamp is a platform that uses an interactive form of teaching mixed with 
    This project was built using:
     * HTML5
     * CSS3 (grid + flexbox)
-    * Visual Studio Code
-
-* Personal Portfolio Website -> [Live link](https://sneakzz.github.io/)
-   
-   This project was built using:
-    * HTML5
-    * CSS3 (flexbox)
     * Visual Studio Code
